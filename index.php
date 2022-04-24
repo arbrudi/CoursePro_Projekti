@@ -18,6 +18,6 @@ else{
   </head>
   <body>
     <h1>Welcome <?php echo $user["name"]; ?></h1>
-    <a href="logout.php">Logout</a>
+    <a href="views/logout.php">Logout</a>
   </body>
 </html>

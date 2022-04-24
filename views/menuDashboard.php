@@ -21,7 +21,7 @@ require_once '../controllers/MenuController.php'
 }
 
 .content-table thead tr {
-  background-color: #009879;
+  background-color: #2DC2BD;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
