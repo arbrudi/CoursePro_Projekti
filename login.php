@@ -1,9 +1,9 @@
 <?php
-require 'function.php';
-
+require 'config/function.php';
 if(!empty($_SESSION["id"])){
   header("Location: index.php");
 }
+
 
 $login = new Login();
 
@@ -14,16 +14,18 @@ if(isset($_POST["submit"])){
     $_SESSION["login"] = true;
     $_SESSION["id"] = $login->idUser();
     header("Location: index.php");
-  }
-  elseif($result == 10){
+    }
+  else if($result == 10){
     echo
     "<script> alert('Wrong Password'); </script>";
   }
-  elseif($result == 100){
+  else if($result == 100){
     echo
     "<script> alert('User Not Registered'); </script>";
-  }
+  }      
 }
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,5 +1,6 @@
 <?php
-require 'function.php';
+require 'config/function.php';
+
 
 if(!empty($_SESSION["id"])){
   header("Location: index.php");

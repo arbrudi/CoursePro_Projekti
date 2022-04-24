@@ -1,5 +1,6 @@
 <?php
-require 'function.php';
+require 'config/function.php';
+
 $_SESSION = [];
 session_unset();
 session_destroy();
