@@ -1,5 +1,5 @@
 <?php
-require_once './config/Database.php';
+require_once '../config/Database.php';
 
 class MenuController{
     public $db;
@@ -17,7 +17,7 @@ class MenuController{
     }
 
     public function insert($request){
-        $request['image']='./images/books/' .$request['image'];
+        $request['image']='../images/books/' .$request['image'];
         $query = $this->db->pdo->prepare('INSERT INTO books (book_image, book_title, book_body, book_file)
         VALUES (:book_image, :book_title, :book_body, :book_file)');
 

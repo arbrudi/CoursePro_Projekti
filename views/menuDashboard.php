@@ -1,5 +1,5 @@
 <?php
-require_once '../controllers/MenuController.php'
+require_once '../controllers/MenuController.php';
 
 ?>
 
@@ -51,6 +51,7 @@ require_once '../controllers/MenuController.php'
     text-decoration: none;
 }
 </style>
+
 <div>
     <table class="content-table">
         <thead>
