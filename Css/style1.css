@@ -19,7 +19,7 @@ header{
 }
 
 header .brand{
-    color: #065A82;
+    color: black;
     font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
@@ -32,7 +32,7 @@ header .navigation{
 
 header .navigation .navigation-items a{
     position: relative;
-    color: #065A82;
+    color: black;
     font-size: 1em;
     font-weight: 500;
     text-decoration: none;
@@ -58,7 +58,7 @@ header .navigation .navigation-items a:hover::before{
 
 header .dropbtn {
     background-color: transparent;
-    color: #065A82;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -85,9 +85,9 @@ header .dropdown-content a {
     display: block;
   }
 
-  .dropdown-content a:hover {background-color: #a390e4;}
+  .dropdown-content a:hover {background-color: #2DC2BD;}
   .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #3f2e56;}
+  .dropdown:hover .dropbtn {background-color: #2DC2BD;}
 section{
     padding: 100px 200px;
 }
@@ -160,7 +160,7 @@ section{
 
 /*section i dyte ja nis qetu dmth section per about us */
 .about1{
-    background-image: url(img4.jpg);
+    background-image: url(fotot_slider/img4.jpg);
     background-size: cover;
     background-color: #453f78;
     overflow: hidden;
@@ -315,7 +315,7 @@ section{
      
 
     .menu-btn{
-        background: url(css/img/menu.jpg) no-repeat;
+        background: url(../css/img/menu.jpg) no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -326,7 +326,7 @@ section{
 
     .menu-btn.active{
         z-index: 999;
-        background: url(css/img/close.png) no-repeat;
+        background: url(../css/img/close.png) no-repeat;
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
