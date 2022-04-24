@@ -61,7 +61,7 @@ require_once './controllers/MenuController.php';
 ?>
 
 </section>
-<script src="script.js"> </script>
+<script src="js/script.js"> </script>
 </body>
 
 </html>
